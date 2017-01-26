@@ -13,11 +13,9 @@ def parallelogram():
     """
 
     for i in range(2):
-        print('#', i)
         forward(200)
         left(60)
         if i % 1 == 0:
-            print('##', i)
             forward(100)
             left(120)
 
