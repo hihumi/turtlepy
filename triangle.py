@@ -16,6 +16,9 @@ def triangle():
         forward(100)
         left(120)
 
+    # リスト内包表記:
+    # [[forward(100), left(120)] for _ in range(3)]
+
     # done()よりも以下のほうがenterキー等で終了できるので楽
     input_data = input('終了: enterキー等: ')
 
